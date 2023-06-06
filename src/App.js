@@ -2,10 +2,8 @@ import './App.css'
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>Portfolio</p>
-      </header>
+    <div className='bg-gray-600 w-screen h-screen'>
+      <p className='text-white text-center font-bold'>Portfolio</p>
     </div>
   )
 }
