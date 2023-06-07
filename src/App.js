@@ -1,9 +1,13 @@
-import './App.css'
+import Navbar from './Navbar'
+import About from './About'
+import Projects from './Projects'
 
 function App() {
   return (
-    <div className='bg-gray-600 w-screen h-screen'>
-      <p className='text-white text-center font-bold'>Portfolio</p>
+    <div className='bg-stone-50 w-screen h-screen'>
+      <Navbar />
+      <About />
+      <Projects />
     </div>
   )
 }
