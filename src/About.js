@@ -2,7 +2,7 @@ import headshot from './grayson-headshot.jpg'
 
 function About() {
   return (
-    <div className='flex flex-col items-center justify-center w-screen py-16 space-y-10'>
+    <section className='flex flex-col items-center justify-center w-screen py-48 space-y-10'>
       <div className='w-1/2 flex flex-row h-full items-center space-x-10'>
         <div
           className='shrink-0 bg-cover bg-left rounded-full border-black border-solid border-2'
@@ -27,27 +27,33 @@ function About() {
           </h1>
         </div>
       </div>
-      <div className='flex flex-row space-x-10 h-10 w-full items-center justify-center'>
+      <ul className='flex flex-row space-x-10 h-10 w-full items-center justify-center'>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-stone-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          target='_blank'
+          rel='noopener noreferrer'
           href='https://github.com/GraysonKornberg'
         >
-          GitHub
+          <li>GitHub</li>
         </a>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-stone-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          target='_blank'
+          rel='noopener noreferrer'
           href='https://github.com/GraysonKornberg'
         >
-          Resume
+          <li>Resume</li>
         </a>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-stone-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          target='_blank'
+          rel='noopener noreferrer'
           href='https://github.com/GraysonKornberg'
         >
-          LinkedIn
+          <li>LinkedIn</li>
         </a>
-      </div>
-    </div>
+      </ul>
+    </section>
   )
 }
 
