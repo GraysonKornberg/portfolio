@@ -11,10 +11,10 @@ function Project(props) {
       <div className='flex flex-grow flex-col space-y-5 px-10 justify-evenly'>
         <h1 className='text-center font-bold text-3xl'>{title}</h1>
         <h2 className='text-center font-semibold'>{description}</h2>
-        <ul className='flex flex-row justify-evenly'>
+        <ul className='flex flex-row justify-center flex-wrap items-baseline'>
           {tech?.map((t) => (
-            <li>
-              <div className='text-xl bg-stone-50 shadow-[0px_0px_20px_-2px_rgb(0,0,0,0.25)] py-1 px-4 rounded-md'>
+            <li className='first:my-0 last:my-0 my-[5px]'>
+              <div className='mx-1 text-lg text-center bg-stone-50 shadow-[0px_0px_20px_-2px_rgb(0,0,0,0.25)] py-1 px-4 rounded-md'>
                 {t}
               </div>
             </li>
@@ -49,10 +49,10 @@ function Project(props) {
       <div className='flex flex-grow flex-col space-y-5 px-10 justify-evenly'>
         <h1 className='text-center font-bold text-3xl'>{title}</h1>
         <h2 className='text-center font-semibold'>{description}</h2>
-        <ul className='flex flex-row justify-evenly'>
+        <ul className='flex flex-row justify-center flex-wrap items-baseline'>
           {tech?.map((t) => (
-            <li>
-              <div className='text-xl bg-stone-50 shadow-[0px_0px_20px_-2px_rgb(0,0,0,0.25)] py-1 px-4 rounded-md'>
+            <li className='first:my-0 last:my-0 my-[5px]'>
+              <div className='mx-1 text-lg text-center bg-stone-50 shadow-[0px_0px_20px_-2px_rgb(0,0,0,0.25)] py-1 px-4 rounded-md'>
                 {t}
               </div>
             </li>
