@@ -7,6 +7,6 @@ export const projectsData = [
     image: './holifi.png',
     tech: ['React', 'Material UI', 'NextJS'],
     github: 'http://github.com/JKornberg/Holifi',
-    demo: 'http://www.google.com',
+    demo: 'http://google.com/',
   },
 ]

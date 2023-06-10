@@ -1,4 +1,4 @@
-import { FaGithub, FaCode } from 'react-icons/fa'
+import { FaCode, FaVideo } from 'react-icons/fa'
 
 function Project(props) {
   const { id, title, description, image, tech, github, demo } = props.data
@@ -28,17 +28,17 @@ function Project(props) {
               href={github}
               className=''
             >
-              <FaGithub className='text-4xl hover:text-blue-600 transition-all' />
+              <FaCode className='text-4xl hover:text-blue-600 transition-all' />
             </a>
           </li>
           <li>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href={`"${demo}"`}
+              href={`${demo}`}
               className=''
             >
-              <FaCode className='text-4xl hover:text-blue-600 transition-all' />
+              <FaVideo className='text-4xl hover:text-blue-600 transition-all' />
             </a>
           </li>
         </ul>
@@ -66,17 +66,17 @@ function Project(props) {
               href={github}
               className=''
             >
-              <FaGithub className='text-4xl hover:text-blue-600 transition-all' />
+              <FaCode className='text-4xl hover:text-blue-600 transition-all' />
             </a>
           </li>
           <li>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href={`"${demo}"`}
+              href={`${demo}`}
               className=''
             >
-              <FaCode className='text-4xl hover:text-blue-600 transition-all' />
+              <FaVideo className='text-4xl hover:text-blue-600 transition-all' />
             </a>
           </li>
         </ul>

@@ -2,7 +2,7 @@ import headshot from './grayson-headshot.jpg'
 
 function About() {
   return (
-    <section className='flex flex-col items-center justify-center w-screen py-48 space-y-10'>
+    <section className='flex flex-col items-center justify-center w-screen pt-48 pb-24 space-y-10'>
       <div className='w-1/2 flex flex-row h-full items-center space-x-10'>
         <div
           className='shrink-0 bg-cover bg-left rounded-full border-black border-solid border-2'
