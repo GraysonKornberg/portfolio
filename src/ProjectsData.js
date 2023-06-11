@@ -38,4 +38,13 @@ export const projectsData = [
     github: 'https://github.com/GraysonKornberg/Spreaddit',
     demo: 'https://youtu.be/hQNB6TxKva4',
   },
+  {
+    id: 5,
+    title: 'Playlist Proximity',
+    description: `An exploratory data analysis project on Spotify's Million Playlist Dataset. User's can pick an artist of their choice and examine statistics about them and their related artists.`,
+    image: './playlist-proximity.png',
+    tech: ['Python', 'Pandas', 'Matplotlib', 'NumPy'],
+    github: 'https://github.com/GraysonKornberg/Playlist-Proximity',
+    demo: 'http://youtu.be/WlLPbBWoIv8',
+  },
 ]
