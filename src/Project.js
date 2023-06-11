@@ -8,7 +8,7 @@ function Project(props) {
         style={{ '--image-url': `url(${image})` }}
         className={`w-[175px] h-[500px] sm:h-[225px] sm:w-[400px] md:h-[225px] md:w-[400px] lg:h-[360px] lg:w-[640px] bg-center bg-cover bg-[image:var(--image-url)] rounded-lg order-2 xl:order-1`}
       ></div>
-      <div className='flex flex-grow flex-col space-y-2 px-10 justify-evenly xl:order-2 pb-5 xl:pb-0'>
+      <div className='flex flex-grow flex-col h-full px-10 justify-evenly xl:order-2 pb-5 xl:pb-0'>
         <h1 className='text-center font-bold text-3xl'>{title}</h1>
         <h2 className='text-center font-semibold'>{description}</h2>
         <ul className='flex flex-row justify-center flex-wrap items-baseline'>
@@ -46,7 +46,7 @@ function Project(props) {
     </div>
   ) : (
     <div className='flex flex-col xl:flex-row justify-between items-center h-full xl:space-x-4 xl:space-y-0'>
-      <div className='flex flex-grow flex-col space-y-2 px-10 justify-evenly pb-5 xl:pb-0'>
+      <div className='flex flex-grow flex-col h-full px-10 justify-evenly pb-5 xl:pb-0'>
         <h1 className='text-center font-bold text-3xl'>{title}</h1>
         <h2 className='text-center font-semibold'>{description}</h2>
         <ul className='flex flex-row justify-center flex-wrap items-baseline'>
