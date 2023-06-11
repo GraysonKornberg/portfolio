@@ -41,7 +41,7 @@ function About() {
           className='text-xl text-center bg-stone-200 shadow-md hover:scale-105 transition-all py-1 px-4 rounded-md'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://github.com/GraysonKornberg'
+          href='https://drive.google.com/file/d/1fy74NCQvt0ytvD82nhFTjhcEWixX1uYy/view?usp=sharing'
         >
           <li>Resume</li>
         </a>
