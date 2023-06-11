@@ -2,17 +2,18 @@ import headshot from './grayson-headshot.jpg'
 
 function About() {
   return (
-    <section className='flex flex-col items-center justify-center w-screen pt-48 pb-24 space-y-10'>
-      <div className='w-1/2 flex flex-row h-full items-center space-x-10'>
+    <section
+      id='home'
+      className='flex flex-col items-center justify-center w-screen pt-48 pb-24 md:space-y-10'
+    >
+      <div className='w-screen md:w-4/5 xl:w-2/3 flex flex-col md:flex-row h-full items-center sm:space-x-4 xl:space-x-10 pb-5 md:pb-0'>
         <div
-          className='shrink-0 bg-cover bg-left rounded-full border-black border-solid border-2'
+          className='h-[200px] w-[200px] xl:h-[250px] xl:w-[250px] shrink-0 bg-cover bg-left rounded-full border-black border-solid border-2'
           style={{
             backgroundImage: `url(${headshot})`,
-            height: '250px',
-            width: '250px',
           }}
         />
-        <div className='w-2/3 flex flex-col space-y-8'>
+        <div className='w-4/5 md:w-2/3 flex flex-col space-y-8'>
           <h1 className='text-6xl font-bold text-center text-stone-900'>
             Grayson Kornberg
           </h1>
@@ -27,9 +28,9 @@ function About() {
           </h1>
         </div>
       </div>
-      <ul className='flex flex-row space-x-10 h-10 w-full items-center justify-center'>
+      <ul className='flex flex-row flex-wrap space-x-3 h-10 w-full items-baseline justify-center'>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl text-center bg-stone-200 shadow-md hover:scale-105 transition-all py-1 px-4 rounded-md'
           target='_blank'
           rel='noopener noreferrer'
           href='https://github.com/GraysonKornberg'
@@ -37,7 +38,7 @@ function About() {
           <li>GitHub</li>
         </a>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl text-center bg-stone-200 shadow-md hover:scale-105 transition-all py-1 px-4 rounded-md'
           target='_blank'
           rel='noopener noreferrer'
           href='https://github.com/GraysonKornberg'
@@ -45,10 +46,10 @@ function About() {
           <li>Resume</li>
         </a>
         <a
-          className='text-xl bg-stone-200 shadow-md hover:bg-blue-400 hover:scale-105 transition-all py-1 px-4 rounded-md'
+          className='text-xl text-center bg-stone-200 shadow-md hover:scale-105 transition-all py-1 px-4 rounded-md'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://github.com/GraysonKornberg'
+          href='https://www.linkedin.com/in/grayson-kornberg/'
         >
           <li>LinkedIn</li>
         </a>
