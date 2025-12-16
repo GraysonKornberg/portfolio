@@ -18,9 +18,7 @@ function About() {
                         Grayson Kornberg
                     </h1>
                     <h1 className='text-lg text-center text-stone-700'>
-                        I'm a Senior at the University of Florida, double
-                        majoring in Computer Science and Statistics. My lifelong
-                        love for mathematics naturally drew me to the
+                        My lifelong love for mathematics naturally drew me to the
                         problem-solving aspects of programming, but what truly
                         surprised me is how coding became an incredible creative
                         outlet. My passion for creativity pushes me to think
